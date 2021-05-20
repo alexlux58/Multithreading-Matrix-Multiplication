@@ -1,0 +1,130 @@
+Script started on 2021-03-02 14:46:31-08:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="92" LINES="24"]
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05$ cd cmake-build-debug/
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug$ ls
+bin		CMakeFiles	     compile_commands.json  in3.txt   matrixMult.cbp
+CMakeCache.txt	cmake_install.cmake  in2.txt		    Makefile  Testing
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug$ cd bin
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug/bin$ ls
+in2.txt  in3.txt  in.txt  matrixMult
+tlexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug/bin$ ./matrixMult in.txt
+
+MATRIX A1
+1	4
+2	5
+3	6
+
+
+MATRIX B1
+8	7	6
+5	4	3
+
+
+MATRIX A1 x B1
+28	23	18
+41	34	27
+54	45	36
+
+
+MATRIX A2
+1	5
+2	6
+3	7
+4	8
+
+
+MATRIX B2
+9	8	7	6	5
+4	3	2	1	0
+
+
+MATRIX A2 x B2
+29	23	17	11	5
+42	34	26	18	10
+55	45	35	25	15
+68	56	44	32	20
+
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug/bin$ ./matrixMult in.txt
+
+
+MATRIX A1
+1	5	2	8	8	9	6
+4	3	8	5	9	1	3
+3	3	3	2	1	5	6
+2	8	6	5	4	2	2
+6	7	9	9	8	6	4
+
+
+MATRIX B1
+1	5	2	8	8	5	5	7
+4	3	8	5	9	9	9	7
+3	3	3	2	1	3	4	2
+2	8	6	5	4	2	3	2
+6	7	9	9	8	6	6	5
+3	1	1	2	3	7	8	6
+3	5	5	4	3	9	9	1
+
+
+MATRIX A1 x B1
+136	185	207	191	196	237	256	162
+116	172	183	183	171	169	183	129
+67	91	95	98	103	150	160	93
+98	132	164	141	158	166	179	126
+157	232	247	246	250	264	288	207
+
+
+MATRIX A2
+1	1
+
+
+MATRIX B2
+2	2	2
+3	3	3
+
+
+MATRIX A2 x B2
+5	5	5
+
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug/bin$ ./matrixMult in2.txt
+
+
+MATRIX A1
+1	2	3
+3	2	1
+1	1	1
+
+
+MATRIX B1
+4	4	4
+1	1	1
+2	2	2
+
+
+MATRIX A1 x B1
+12	12	12
+16	16	16
+7	7	7
+
+
+MATRIX A2
+1	2	6
+2	1	4
+4	4	4
+5	5	5
+
+
+MATRIX B2
+3	3
+4	4
+1	2
+
+
+MATRIX A2 x B2
+17	23
+14	18
+32	36
+40	45
+
+alexlux@alexlux-VirtualBox:~/Desktop/AlexLuxLab05/cmake-build-debug/bin$ exit
+exit
+
+Script done on 2021-03-02 14:47:02-08:00 [COMMAND_EXIT_CODE="0"]
